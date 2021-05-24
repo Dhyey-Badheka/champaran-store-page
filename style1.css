@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	position: relative;
+	
+
+}
+header
+{
+	position: fixed;
+	margin: 0px 0px 0px 0px;
+	top: 0;
+	right: 0;
+	left:0;
+	padding: 0 100px;
+	background:green;
+	width: 100%;
+	
+}
+header .logo{
+	color:white;
+	height:120px;
+	line-height: 100px;
+	font-size: 50px;
+	float: left;
+	font-weight: bold; 
+	font-family: inherit;
+	align-items: center;
+
+}
+header nav{
+	float: right;
+
+}
+header nav ul
+{
+	margin:0;
+	padding: 0;
+	display: flex;
+}
+header nav ul li
+{
+	list-style: none;
+}
+header nav ul li a{
+	height: 120px;
+	line-height: 100px;
+	padding: 0 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bolder;
+	display: block;
+
+}
+
+header nav ul li a:hover,
+header nav ul li a.active{
+	color:#fff;
+	background:darkgreen; 
+	
+}
+.btn{
+	background-color: chartreuse;
+	border:none;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	line-height: 50px;
+	opacity:0.3;
+	margin-top: 25px;
+	margin-right: 10px;
+	border-radius: 25px;
+}
+.shop{
+	background-color:black;
+	border:none;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 16px;
+	margin-top: 80px;
+	cursor: pointer;
+	
+}
+@media(max-height: 991px)
+{
+	header{
+		padding: 0 20px;
+	}
+}
+.tab{
+	margin-top: 120px;
+}
+#Slideshow
+{
+	margin-top: 120px;
+	height: 500px;
+	margin-left: 945px;
+	border-radius: 25px;
+}
+.block1{
+
+   margin: 30px;
+   background-color: #000;
+   border: 1px solid black;
+   vertical-align: top;
+   color: darkgreen;
+   height: 450px;
+   align-items: center;
+   border-radius: 25px;
+}
+.slogan{
+	font-size: 40px;
+	font-family: "Roboto",sans-serif;
+	color: darkgreen;
+
+}
+
+
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-bar{width:100%;overflow:hidden}.w3-center .w3-bar{display:inline-block;width:auto}
+.w3-bar-block.w3-center .w3-bar-item{text-align:center}.w3-block{display:block;width:100%}
+.w3-center{text-align:center!important}
+.w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
+.w3-black,.w3-hover-black:hover{color:#ffffff!important;background-color:darkgreen!important}
+.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
+.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important}
+.ftr-top-left.about-text-grids {
+    text-align: center;
+}
+.ftr-top-left.about-text-grids i.fa {
+    color: #999;
+    margin-top: 1em;
+}
+@media(max-width:1440px){ 
+}
+@media(max-width:1366px){
+.welcome, .deals, .card-page, .help, .values, .privacy, .sitemap, .products, .related-products, .login-page, .contact, .about, .faq-w3agile, .wthree-offers, .w3l-services {
+    padding: 4em 0;
+}
+.welcome, .deals, .card-page, .help, .values, .privacy, .sitemap, .products, .related-products, .login-page, .contact, .about, .faq-w3agile, .wthree-offers, .w3l-services {
+    padding: 3em 0;
+}
+
+.services-grids h4, .about-text-grids h4 {
+    font-size: 1.1em; 
+}
+@media(max-width:768px){
+.welcome, .deals, .card-page, .help, .values, .privacy, .sitemap, .products, .related-products, .login-page, .contact, .about, .faq-w3agile, .wthree-offers, .w3l-services {
+    padding: 2em 0;
+}
+.services-grids h4, .about-text-grids h4 {
+    font-size: 1em;
+}
+.services-grids h4, .about-text-grids h4 {
+    font-size: 0.9em;
+}
+.ftr-top-left.about-text-grids i.fa { 
+    margin-top: 0.5em;
+}
+h3.w3ls-title {
+    text-align: left;
+    font-size: 2em;
+    color: #000;
+    margin: 1em 0;
+    font-family: 'Offside', cursive;
+}
+h3.w3ls-title.w3ls-title1 {
+    text-align: center;
+    margin: 0 0 1.5em;
+	font-size: 2.5em;
+}
+.history h3.w3ls-title {
+    font-size: 1.8em;
+    margin: 2em 0 0.5em;
+}
+h3.w3ls-title { 
+    font-size: 1.8em; 
+    margin: 0.8em 0; 
+}
+h3.w3ls-title.w3ls-title1 { 
+    margin: 0 0 1.2em;
+    font-size: 2.2em;
+}
+.history h3.w3ls-title { 
+    margin: 1.5em 0 0.5em;
+}
+h3.w3ls-title.w3ls-title1 { 
+    font-size: 2em;
+}
+h3.w3ls-title {
+    font-size: 1.6em; 
+}
+h3.w3ls-title {
+    font-size: 1.4em;
+}  
+h3.w3ls-title.w3ls-title1 {
+    font-size: 1.8em;
+} 
+h3.w3ls-title.w3ls-title1 {
+    font-size: 1.6em;
+    margin: 0 0 1em;
+}
+h3.w3ls-title.w3ls-title1 {
+    font-size: 1.4em; 
+}
+h3.w3ls-title {
+    font-size: 1.2em;
+    margin: 0.6em 0;
+}
+.history h3.w3ls-title {
+    margin: 1em 0 0.5em;
+} 
+.history h3.w3ls-title {
+    font-size: 1.3em;
+}
+h3.w3ls-title.w3ls-title1 {
+    font-size: 1.3em;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin: 0 auto;
+} 
+.b{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
